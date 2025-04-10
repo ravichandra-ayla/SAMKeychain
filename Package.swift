@@ -13,4 +13,4 @@ let package = Package(name: "SAMKeychain",
                                           targets: ["SAMKeychain"])],
                       targets: [.target(name: "SAMKeychain",
                                         path: "Sources",
-                                        publicHeadersPath: "SAMKeychain")])
+                                        publicHeadersPath: "Sources")])
