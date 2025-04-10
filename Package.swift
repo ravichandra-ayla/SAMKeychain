@@ -12,5 +12,5 @@ let package = Package(name: "SAMKeychain",
                       products: [.library(name: "SAMKeychain",
                                           targets: ["SAMKeychain"])],
                       targets: [.target(name: "SAMKeychain",
-                                        path: "Sources",
-                                        publicHeadersPath: "Sources")])
+                                        path: "SAMKeychain",
+                                        publicHeadersPath: "")])

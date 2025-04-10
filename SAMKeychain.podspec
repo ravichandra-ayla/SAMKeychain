@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/soffes/samkeychain.git', :tag => "v#{spec.version}" }
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  spec.source_files = 'Sources/*.{h,m}'
+  spec.source_files = 'SAMKeychain/*.{h,m}'
   spec.resources = 'Support/SAMKeychain.bundle'
 
   spec.frameworks = 'Security', 'Foundation'
